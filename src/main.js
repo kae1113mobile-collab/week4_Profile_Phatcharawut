@@ -1,9 +1,13 @@
 import {HomePage} from './pages/home'
 import { Adminpage } from './pages/admin'
+import { Adoutpage } from './pages/Adout'
+import { Contactpage } from './pages/Contact'
 
 
 const router={
   '/':HomePage,
+  '/':Adoutpage,
+  '/':Contactpage,
   '/admin':Adminpage,
 }
 
