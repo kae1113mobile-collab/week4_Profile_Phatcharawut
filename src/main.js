@@ -1,6 +1,7 @@
 import {HomePage} from './pages/home'
 import { Adminpage } from './pages/admin'
 
+
 const router={
   '/':HomePage,
   '/admin':Adminpage,
